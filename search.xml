@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>HTML标签类型</title>
+      <link href="blog/HTML%E6%A0%87%E7%AD%BE%E7%B1%BB%E5%9E%8B/"/>
+      <url>blog/HTML%E6%A0%87%E7%AD%BE%E7%B1%BB%E5%9E%8B/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="标签类型"><a href="#标签类型" class="headerlink" title="标签类型"></a>标签类型</h1><h2 id="一、文本标签"><a href="#一、文本标签" class="headerlink" title="一、文本标签"></a>一、文本标签</h2><p>1、h1~h6：h代表标题，号越大字越小。〔双标签 具有换行的功能〕<br>2、p：段落标签。〔双标签 换行〕<br>3、br：换行 〔单标签〕<br>4、hr：水平线 〔单标签〕</p><h2 id="二、列表标签"><a href="#二、列表标签" class="headerlink" title="二、列表标签"></a>二、列表标签</h2><p>1、无序列表<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br></pre></td></tr></table></figure><br><strong><em>注意：ul内一般只包含li，li放在ul内 li内什么都可以，甚至ul</em></strong><br>2、有序列表<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dt</span>&gt;</span><span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dd</span>&gt;</span><span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br></pre></td></tr></table></figure></p><h2 id="三、（图像）img标签"><a href="#三、（图像）img标签" class="headerlink" title="三、（图像）img标签"></a>三、（图像）img标签</h2><p>1、单标签<br>2、必须跟 属性src 属性一般是键值对的形式<br>3、src后 图片的文件名 〔width 宽度 height 高度〕<br>4、绝对路径和相对路径</p><h2 id="四、超链接"><a href="#四、超链接" class="headerlink" title="四、超链接"></a>四、超链接</h2><p>1、<a></a> 双标签 〔不换行〕 必须使用属性href<br>2、根据href的值分为：</p><pre><code>- 外部链接：http://…- 内部链接：本地页面- 空链接：#- 文件链接：文件名（下载文件）</code></pre><p>3、a还有一个常见的属性 target（目的）</p><pre><code>- target-self 在本身页面打开，---后退和前进按钮- target-blank 在新网页内打开</code></pre><p>4、锚点链接</p><pre><code>- 适用：同一篇长文档- 源：href=“#id名”- 目的： name=“id名”</code></pre><p>5、图片链接<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">例：</span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot; &quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot; &quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>preface</title>
       <link href="blog/preface/"/>
       <url>blog/preface/</url>
