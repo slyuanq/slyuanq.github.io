@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>preface</title>
+      <link href="blog/preface/"/>
+      <url>blog/preface/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="一、基本概念"><a href="#一、基本概念" class="headerlink" title="一、基本概念"></a>一、基本概念</h2><p>http:、ftp:、smtp: → 协议(应用)<br>http 超文本传输协议(Hypertext Transfer Protocol)<br>www 万维网(World Wide Web)<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">http://page.china.alibaba.com/cp/cp1.html</span></span><br><span class="line">  <span class="string">↓</span>              <span class="string">↓</span>             <span class="string">↓</span>    <span class="string">↓</span></span><br><span class="line"><span class="string">通信协议名称</span>     <span class="string">域名</span>      <span class="string">文件路径</span>  <span class="string">文件名</span></span><br></pre></td></tr></table></figure><br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">http://www.163.com</span>   <span class="comment">#www</span></span><br><span class="line">        <span class="string">↓</span></span><br><span class="line">      <span class="string">机器名</span></span><br></pre></td></tr></table></figure><br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">http://news.163.com</span>   <span class="comment">#news</span></span><br><span class="line">        <span class="string">↓</span></span><br><span class="line">      <span class="string">机器名</span></span><br></pre></td></tr></table></figure><br><strong>URL:统一资源标识符</strong><br><strong>静态网页：html、css、javascript</strong></p><h2 id="二、工具"><a href="#二、工具" class="headerlink" title="二、工具"></a>二、工具</h2><p>1、浏览器：运行、执行<br>2、编辑器：写代码</p><pre><code>- 记事本- Dreamweaver- sublime- WebStorm- VS（微软）</code></pre><h2 id="三、网页的结构（Web前端）"><a href="#三、网页的结构（Web前端）" class="headerlink" title="三、网页的结构（Web前端）"></a>三、网页的结构（Web前端）</h2><p>1、结构：基本组成—标签 &lt;&gt;——html<br>2、样式：css<br>3、交互：javascript<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span>  #说明当前的html是html5</span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span>  #根标签</span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h2</span>&gt;</span><span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></p><h2 id="四、软件的使用"><a href="#四、软件的使用" class="headerlink" title="四、软件的使用"></a>四、软件的使用</h2><p>1、Tab—自动补全功能<br>2、chrome—设置</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>测试页面</title>
       <link href="blog/done/"/>
       <url>blog/done/</url>
