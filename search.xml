@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>图片的样式</title>
+      <link href="blog/%E5%9B%BE%E7%89%87%E7%9A%84%E6%A0%B7%E5%BC%8F/"/>
+      <url>blog/%E5%9B%BE%E7%89%87%E7%9A%84%E6%A0%B7%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一、设置元素大小"><a href="#一、设置元素大小" class="headerlink" title="一、设置元素大小"></a>一、设置元素大小</h1><p><strong>标签分为三类： 块标签、 行内标签、 行内块标签</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>文字、段落的属性设置</title>
       <link href="blog/%E6%96%87%E5%AD%97%E3%80%81%E6%AE%B5%E8%90%BD%E7%9A%84%E5%B1%9E%E6%80%A7%E8%AE%BE%E7%BD%AE/"/>
       <url>blog/%E6%96%87%E5%AD%97%E3%80%81%E6%AE%B5%E8%90%BD%E7%9A%84%E5%B1%9E%E6%80%A7%E8%AE%BE%E7%BD%AE/</url>
