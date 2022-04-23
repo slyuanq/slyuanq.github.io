@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>html</title>
+      <link href="blog/html/"/>
+      <url>blog/html/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一、背景"><a href="#一、背景" class="headerlink" title="一、背景"></a>一、背景</h1><p>1、background-color:<br>2、background-image：url（ ）;<br>3、background-repeat: repeat(默认):repeat-x   no-repeat<br>4、background-position：<br>（1）方位名词 left top 或者 right bottom<br>（2）百分比 10% 10%【离左端10%，离上端10%】<br>（3）具体的数值 100px 100px<br>5、综合设置 background：red url() no-repeat 100px 100px</p><h1 id="二、HTML的常用符号"><a href="#二、HTML的常用符号" class="headerlink" title="二、HTML的常用符号"></a>二、HTML的常用符号</h1><p>1、空格 &amp;nbsp；<br>2、&gt; &lt; &amp;gt ; &amp;lt ;<br>3、© &amp;copy； ®&amp;reg；</p><h1 id="三、列表"><a href="#三、列表" class="headerlink" title="三、列表"></a>三、列表</h1><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">ol</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dt</span>&gt;</span><span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dd</span>&gt;</span><span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dl</span>&gt;</span></span><br></pre></td></tr></table></figure><p>1、list-style-type: disc square none<br>2、list-style-position: inside |outside(默认) 小圆点 的 位置 是否在 li 内<br>3、list-style-image：url（）<br>4、浏览器对ul 有 默认的边距，有padding 还有 margin </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>图片的样式</title>
       <link href="blog/%E5%9B%BE%E7%89%87%E7%9A%84%E6%A0%B7%E5%BC%8F/"/>
       <url>blog/%E5%9B%BE%E7%89%87%E7%9A%84%E6%A0%B7%E5%BC%8F/</url>
