@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>表格</title>
+      <link href="blog/%E8%A1%A8%E6%A0%BC/"/>
+      <url>blog/%E8%A1%A8%E6%A0%BC/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一、有关表格的标签"><a href="#一、有关表格的标签" class="headerlink" title="一、有关表格的标签"></a>一、有关表格的标签</h1><pre><code>- 1、table--表格- 2、tr---行- 3、td--单元格- 4、th--表头单元格- 5、表格的结构标签（1）thead（2）tbody</code></pre><h1 id="二、有关table的属性（html）"><a href="#二、有关table的属性（html）" class="headerlink" title="二、有关table的属性（html）"></a>二、有关table的属性（html）</h1><p>1、border：边框<br>2、width：没有宽度时，内容撑开<br>对第一行的单元格设置width，目的是 列宽<br>height：垂直方向默认 是居中对齐<br>(css:  vertical-align:)<br>3、align：对齐方式<br>4、cellspacing: 单元格之间的距离<br>5、cellpadding：边框  和 内容 之间的距离</p><h1 id="三、合并单元格"><a href="#三、合并单元格" class="headerlink" title="三、合并单元格"></a>三、合并单元格</h1><p>1、跨行  合并rowspan属性：<br>在上面的单元格写属性<br>2、跨列  合并colspan属性<br>四、表格的边框问题<br>1、table的边框是： 外面的 大的  四条线<br>2、tr 没有 border的 概念<br>3、td：每一个单元格 有 四个 边框<br>（不见得都有四个）<br>4、对于table<br>border-collapse: separate |  collapse；</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>导航</title>
       <link href="blog/%E5%AF%BC%E8%88%AA/"/>
       <url>blog/%E5%AF%BC%E8%88%AA/</url>
