@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>导航</title>
+      <link href="blog/%E5%AF%BC%E8%88%AA/"/>
+      <url>blog/%E5%AF%BC%E8%88%AA/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div style="text-align: center; font-weight: 800; font-size: 48px; font-family: 华文行楷; color: #eee; background-color: #aaa;">超链接的css---》导航</div><h1 id="一、超链接的属性设置"><a href="#一、超链接的属性设置" class="headerlink" title="一、超链接的属性设置"></a>一、超链接的属性设置</h1><p>1、a标签  是 行内  标签—-不换行，宽高不起作用<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">display：block转换为块标签</span><br><span class="line">display：inline-block 转换为行内块标签</span><br><span class="line">display：inline转换为行内标签</span><br></pre></td></tr></table></figure><br>2、去下划线  text-decoration:none;<br>3、水平、垂直的居中<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">text-align：center；</span><br><span class="line">垂直居中：行高=高度</span><br></pre></td></tr></table></figure><br>4、水平不居中：padding  内边距<br>上   右  下  左  （顺时针）<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">padding: 10px;</span><br><span class="line">padding: 10px 20px;（上下    左右）</span><br><span class="line">padding: 10px 20px 30px;（上   右左  下）</span><br><span class="line">padding: 10px 20px 30px 40px;（上   右  下  左）</span><br></pre></td></tr></table></figure></p><pre><code>- 内边距的地方是超链接的范围- border的地方是超链接的范围</code></pre><h1 id="二、超链接的伪类选择器—-：-状态"><a href="#二、超链接的伪类选择器—-：-状态" class="headerlink" title="二、超链接的伪类选择器—-： 状态"></a>二、超链接的伪类选择器—-： 状态</h1><p>a:link——-未  被 访问的<br>a:visited——已经  访问过的<br>a:hover——-鼠标放上去（重要）<br>a:active——按下去  没松手<br>一定按顺序lvha，不必要四个都写全</p><h1 id="三、垂直导航"><a href="#三、垂直导航" class="headerlink" title="三、垂直导航"></a>三、垂直导航</h1><p>1、一般都是ul，不要  点<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ul&#123;</span><br><span class="line">list-style:none;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>2、li内  是  a<br>3、a 做样式<br>4、一般会有一个外边距 margin</p><h1 id="四、水平导航"><a href="#四、水平导航" class="headerlink" title="四、水平导航"></a>四、水平导航</h1><p>1、width：block来讲，如果不写width，和父亲一样宽。（继承）<br>2、水平想居中，一定会有width<br>3、height：一般不设置</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>html</title>
       <link href="blog/html/"/>
       <url>blog/html/</url>
