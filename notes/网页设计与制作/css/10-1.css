@@ -1,0 +1,35 @@
+/*页面的初始化样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	color: #333;
+
+	/*12号字，20px行距，宋体*/
+	font: 12px/20px "SimSun";
+}
+/*nav的样式*/
+.nav{
+	height: 41px;
+	border-top: 3px solid #ff8500;
+	border-bottom: 1px solid #edeef0;
+	background-color: #fcfcfc;
+}
+.nav a{
+	color: #333;
+	display: inline-block;
+	height: 41px;
+	line-height: 41px;
+	padding: 0 15px;
+}
+.nav a:hover{
+	color: #ff8500;
+	background-color: #eee;
+}

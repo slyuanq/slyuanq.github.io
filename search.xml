@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>CSS总结</title>
+      <link href="blog/CSS%E6%80%BB%E7%BB%93/"/>
+      <url>blog/CSS%E6%80%BB%E7%BB%93/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="CSS的三种引入方式"><a href="#CSS的三种引入方式" class="headerlink" title="CSS的三种引入方式"></a>CSS的三种引入方式</h1><h2 id="1、行内样式表（行内式）"><a href="#1、行内样式表（行内式）" class="headerlink" title="1、行内样式表（行内式）"></a>1、行内样式表（行内式）</h2><p>是在元素标签内部的style属性中设定CSS样式，适合修改简单的样式</p><pre><code>- style其实就是标签的属性- 在双引号中间，写法要符合CSS规范- 可以控制当前的标签设置样式- 由于书写繁琐，并且没有体现出结构与样式分离的思想，所以不推荐大量使用。</code></pre><h2 id="2、内部样式表（嵌入式）"><a href="#2、内部样式表（嵌入式）" class="headerlink" title="2、内部样式表（嵌入式）"></a>2、内部样式表（嵌入式）</h2><p>把样式表写到html页面的内部，将所有的CSS代码抽取出来，单独放到一个style标签内</p><pre><code>- style标签理论上可以放在HTML文档的任何地方，但是一般会放在&lt;head&gt;标签内- 通过此种方式，可以方便控制整个页面的元素样式设置- 代码结构清晰，但是并没有实现结构与样式的完全分离</code></pre><h2 id="3、外部样式表（链接式）"><a href="#3、外部样式表（链接式）" class="headerlink" title="3、外部样式表（链接式）"></a>3、外部样式表（链接式）</h2><p>实际开发都是外部样式表。核心是：样式单独写到CSS文件中，之后把CSS文件引入到HTML页面中使用<br>步骤：<br>    （1）先建立一个CSS样式文件，把所有的CSS代码都放入此文件中<br>    （2）在HTML页面中，使用<link>标签引入这个文件</p><pre><code>- &lt;link rel=&quot;stylesheet&quot; href=&quot;CSS文件路径&quot;&gt;</code></pre><h1 id="CSS的三大特性"><a href="#CSS的三大特性" class="headerlink" title="CSS的三大特性"></a>CSS的三大特性</h1><h2 id="一、层叠性"><a href="#一、层叠性" class="headerlink" title="一、层叠性"></a>一、层叠性</h2><p>相同选择器给设置相同的样式，此时一个样式就会覆盖（层叠）另一个冲突的样式。层叠性主要解决样式冲突的问题。</p><ul><li>层叠性原则：<pre><code>  - 样式冲突：遵循的原则是就近原则，哪个样式离结构近，就执行哪个样式。  - 样式不冲突，不会层叠</code></pre><h2 id="二、继承性"><a href="#二、继承性" class="headerlink" title="二、继承性"></a>二、继承性</h2>CSS中的继承：子标签会继承父标签的某些样式，如文本颜色和字号<pre><code>  - 恰当的使用继承可以简化代码，降低CSS样式的复杂性  - 子元素可以继承父元素的样式（text-  ，font-，line- 以及color属性）  - 行高：可以不跟单位  12px/1.5</code></pre><h2 id="三、优先级"><a href="#三、优先级" class="headerlink" title="三、优先级"></a>三、优先级</h2>1、当同一个元素指定多个选择器，就会有优先级的产生<pre><code>  - 选择器相同，则执行层叠性  - 选择器不同，则根据选择器权重执行</code></pre>2、选择器的权重：  <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">继承或者*0,0,0,0</span><br><span class="line">元素选择器0,0,0,1</span><br><span class="line">类（伪类）选择器0,0,1,0</span><br><span class="line"><span class="selector-tag">ID</span>选择器0,1,0,0</span><br><span class="line">行内样式 <span class="selector-tag">style</span>1,0,0,0</span><br><span class="line">!<span class="selector-tag">important</span>无穷大</span><br></pre></td></tr></table></figure>3、优先级注意点：<pre><code>  - 权重是由4组数字组成，但是不会有进位  - 可以理解为类选择器&gt;元素选择器  - 等级判断从左向右  - 继承的权重为0</code></pre>4、权重叠加：如果是复合选择器，则会有权重叠加，需要计算权重<h1 id="CSS3中新增的选择器"><a href="#CSS3中新增的选择器" class="headerlink" title="CSS3中新增的选择器"></a>CSS3中新增的选择器</h1><h2 id="1、属性选择器"><a href="#1、属性选择器" class="headerlink" title="1、属性选择器 [ ]"></a>1、属性选择器 [ ]</h2>  可以根据元素特定的属性来选择元素，这样就可以不借助于类或者id选择器</li><li>(1)E[attr]:选择具有attr属性的E元素</li><li>(2)E[attr=”val”]:选择具有attr属性且属性值等于val的E元素</li><li>(3)E[attr^=”val”]：开头</li><li>(4)E[attr$=”val”]：结尾</li><li>(5)E[attr*=”val”]：含有<br>注意：类选择器、伪类选择器、属性选择器的权重为10<h2 id="2、结构伪类选择器"><a href="#2、结构伪类选择器" class="headerlink" title="2、结构伪类选择器   :"></a>2、结构伪类选择器   :</h2> 结构伪类选择器主要是根据文档结构来选择元素，常用于根据父级选择里面的子元素<br>  （1）E:first-child  匹配父元素中的第一个子元素E<br>  （2）E:first-of-type    指定类型E的第一个<h2 id="3、伪元素选择器"><a href="#3、伪元素选择器" class="headerlink" title="3、伪元素选择器"></a>3、伪元素选择器</h2><h1 id="文本框："><a href="#文本框：" class="headerlink" title="文本框："></a>文本框：</h1>（1）有一个:focus的伪类选择器（焦点）<br>（2）有一个属性 outline（轮廓线）<br>（3）圆角边框border-radius</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>表单</title>
+      <link href="blog/%E8%A1%A8%E5%8D%95/"/>
+      <url>blog/%E8%A1%A8%E5%8D%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一、表单的作用"><a href="#一、表单的作用" class="headerlink" title="一、表单的作用"></a>一、表单的作用</h1><p><div style="font-weight: 800; font-size: 24px;">交互</div></p><h1 id="二、表单域标签-form"><a href="#二、表单域标签-form" class="headerlink" title="二、表单域标签  form"></a>二、表单域标签  form</h1><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure><p>1、双标签<br>2、属性： </p><pre><code>- action：---提交后的页面地址- method：---get/post   post不显示参数和参数值</code></pre><h1 id="三、表单控件—-input标签"><a href="#三、表单控件—-input标签" class="headerlink" title="三、表单控件—-input标签"></a>三、表单控件—-input标签</h1><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;password&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure><p>1、单标签  行内块<br>2、type属性</p><pre><code>- text：单行文本框- password： 密码框- radio：单选按钮- checkbox：复选框- submit：提交按钮（动作）- reset：重置按钮（动作）</code></pre><p>3、value属性—值<br>4、name（id  class  name）<br>name为后台服务，特别是radio，一组radio为了互斥要name相同<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">例如：</span><br><span class="line">qqq.html?xm=qqqq&amp;mm=1234</span><br></pre></td></tr></table></figure><br>5、一般对radio和checkbox有效—-checked属性</p><h1 id="四、表单控件—select下拉列表标签"><a href="#四、表单控件—select下拉列表标签" class="headerlink" title="四、表单控件—select下拉列表标签"></a>四、表单控件—select下拉列表标签</h1><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">select</span> <span class="attr">name</span>=<span class="string">&quot;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br></pre></td></tr></table></figure><p>1、双标签  行内块<br>2、列表的每一项  option标签<br>3、下拉列表—》列表 属性 multiple<br>4、默认选中第一项，属性selected 可更改</p><h1 id="五、表单控件—textarea文本域标签"><a href="#五、表单控件—textarea文本域标签" class="headerlink" title="五、表单控件—textarea文本域标签"></a>五、表单控件—textarea文本域标签</h1><p>1、cols=”30” rows=”10”<br>2、要改变  垂直 对齐方式，样式vertical-align</p><h1 id="六、label标签—-提示说明"><a href="#六、label标签—-提示说明" class="headerlink" title="六、label标签—-提示说明"></a>六、label标签—-提示说明</h1><p>1、双  行内<br>2、属性 for指明要服务的id</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>表格</title>
       <link href="blog/%E8%A1%A8%E6%A0%BC/"/>
       <url>blog/%E8%A1%A8%E6%A0%BC/</url>
