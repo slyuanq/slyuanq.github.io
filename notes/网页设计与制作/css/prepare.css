@@ -129,3 +129,51 @@ h1{
     color: #eee;
 
 }
+#download a:hover{
+    font-size: 36px;
+    color: #333;
+    background-image: url(images/bg.jpg);
+}
+
+/*web的样式*/
+#web ul #ht{
+    border: 3px dotted skyblue;
+    width: 500px;
+    padding-left: 30px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-image: url(images/bg.jpg);
+    color: #fff;
+    font-weight: 750;
+    margin-bottom: 20px;
+}
+#web ul{
+    list-style-position: inside;
+    list-style-type: upper-roman;    
+    /*border-top: 2px dotted skyblue;
+    border-bottom: 2px double skyblue;*/
+}
+#web ul #left{
+    width: 300px;
+    border-bottom: 4px dotted skyblue;
+}
+#web ul #right{
+    height: 10px;
+    text-align: right;
+    color: skyblue;
+    /*border-bottom: 4px dotted skyblue;*/
+    font-size: 42px;
+    font-weight: 900;
+}
+#use div{
+    width: 500px;
+    margin: 0 auto;
+    list-style-position: inside;
+    border: 2px dotted skyblue;
+    border-radius: 8px;
+    padding: 30px 40px 30px 40px;
+    background-image: url(images/bg.jpg);
+    color: #fff;
+    font-weight: 750;
+
+}
