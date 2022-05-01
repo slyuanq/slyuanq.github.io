@@ -1,0 +1,55 @@
+复习：表格
+table  tr  td  thead  tbody
+属性：width  align  celllspacing cellpadding
+       rowspan   colspan
+样式：border（table   td）
+
+新课：表单
+一、表单的作用
+交互
+二、表单域标签  form
+1、双
+2、属性： 
+action：---提交后的页面地址
+method：---get/post   post不显示参数和参数值
+
+三、表单控件---input标签
+1、单标签  行内块
+2、type属性
+--text：单行文本框
+--password： 密码框
+--radio：单选按钮
+--checkbox：复选框
+--submit：提交按钮（动作）
+--reset：重置按钮（动作）
+
+3、value属性--值
+4、name（id  class  name）
+name为后台服务，
+（1）特别是radio，一组radio为了互斥要name相同
+qqq.html?xm=qqqq&mm=1234
+
+5、一般对radio和checkbox有效---checked属性
+
+
+
+四、表单控件--select下拉列表标签
+1、双标签  行内块
+2、列表的每一项  option标签
+3、下拉列表--》列表 属性 multiple
+4、默认选中第一项，属性selected 可更改
+
+五、表单控件--textarea文本域标签
+1、cols="30" rows="10"
+2、要改变  垂直 对齐方式，样式vertical-align
+
+六、label标签---提示说明
+1、双  行内
+2、属性 for指明要服务的id
+
+
+
+
+
+
+

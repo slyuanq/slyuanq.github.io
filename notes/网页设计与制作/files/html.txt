@@ -1,0 +1,46 @@
+复习：
+border
+width（继承）  height
+对齐：text-align   margin
+
+新课：
+一、背景
+1、background-color:
+2、background-image：url（）
+3、background-repeat:
+  repeat(默认)   repeat-x  no-repeat
+4、background-position：
+（1）方位名词
+left  top 或者   right  bottom
+（2）百分比
+10%  10%
+（3）具体的数值
+100px   100px
+
+5、综合设置
+background：red url() no-repeat 100px 100px
+
+二、HTML的常用符号
+1、空格  &nbsp；
+2、>  <  &gt;  &lt;
+3        &copy； &reg；
+
+
+三、列表
+ol ->li   ul-->li   dl-->dd dt
+1、list-style-type:  disc   square  none
+2、list-style-position: inside  |   outside(默认)
+小圆点  的  位置  是否在  li  内
+3、list-style-image：url（）
+
+4、浏览器对ul  有 默认的边距，有 padding
+还有  margin
+
+
+
+
+
+
+
+
+

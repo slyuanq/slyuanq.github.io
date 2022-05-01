@@ -1,0 +1,62 @@
+复习：
+背景图片（选择器{background-image}）
+和  图片（img）
+
+新课：
+超链接的css---》导航
+
+一、超链接的属性设置
+1、a标签  是 行内  标签---不换行，宽高不起作用
+display：block    inline-block   inline
+
+2、去下划线  text-decoration:none;
+
+3、水平、垂直的居中
+text-align：center；
+行高=高度
+
+4、水平不居中：padding  内边距
+上   右  下  左  （顺时针）
+padding: 10px;
+padding: 10px 20px;（上下    左右）
+padding: 10px 20px 30px;（上   右左  下）
+padding: 10px 20px 30px 40px;（上   右  下  左）
+
+内边距的地方是  手状  吗？
+border的地方是  手状  吗？
+
+二、超链接的伪类选择器---： 状态
+a:link-----未  被 访问的
+a:visited----已经  访问过的
+a:hover-----鼠标放上去（重要）
+a:active----按下去  没松手
+
+一定按顺序lvha，不必要四个都写全
+
+三、垂直导航
+1、一般都是ul，不要  点 
+ul{  list-style:none; }
+2、li内  是  a
+3、a 做样式
+4、一般会有一个外边距 margin
+
+
+四、水平导航
+1、width：block来讲，如果不写width，和父亲一样宽。（继承）
+2、水平想居中，一定会有width
+3、height：一般不设置
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

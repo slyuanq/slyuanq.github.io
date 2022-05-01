@@ -1,0 +1,42 @@
+复习：
+导航---超链接
+a:hover{}
+
+新课：表格
+一、有关表格的标签
+1、table--表格
+2、tr---行
+3、td--单元格
+4、th--表头单元格
+5、表格的结构标签
+（1）thead
+（2）tbody
+
+二、有关table的属性（html）
+1、border
+2、width：没有宽度时，内容撑开
+对第一行的单元格设置width，目的是 列宽
+height：垂直方向默认 是居中对齐
+(css:  vertical-align:)
+
+3、align：对齐方式
+
+4、cellspacing: 单元格之间的距离
+5、cellpadding：边框  和 内容 之间的距离
+
+三、合并单元格
+1、跨行  合并rowspan属性： 
+在上面的单元格写属性
+2、跨列  合并colspan属性
+
+四、表格的边框问题
+1、table的边框是： 外面的 大的  四条线
+2、tr 没有 border的 概念
+3、td：每一个单元格 有 四个 边框
+（不见得都有四个）
+4、对于table
+border-collapse: separate |  collapse；
+
+
+
+

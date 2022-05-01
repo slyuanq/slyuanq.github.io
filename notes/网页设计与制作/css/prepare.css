@@ -1,0 +1,131 @@
+/*页面初始化样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height: 2em;
+    font-size: 16px;
+    color: #333;
+    background-image: url(images/bg.jpg);
+}
+/*all的样式*/
+#all{
+    margin: 0 auto;
+    width: 960px;
+    border-top: 4px solid #73FBFD;
+    border-bottom: 4px solid #73FBFD;
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+/*超链接样式*/
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+/*gn的样式*/
+ul{
+    list-style: none;
+}
+.gn ul li:nth-child(4) #one{
+    padding: 0 11px 0 16px;
+    font-size: 28px;
+    border-left: 2px dotted #ea36eb;
+}
+.gn ul li:nth-child(4) #two{
+    padding: 0 85px 0 93px;
+    font-size: 28px;
+}
+.gn ul li:nth-child(4) #three{
+    padding: 0;
+    font-size: 28px;
+}
+.gn ul li:nth-child(4) #four{
+    padding: 0 49px 0 30px;
+    font-size: 28px;
+    border-right: 2px dotted #ea36eb;
+}
+.gn ul li:nth-child(3){
+    border-top: 2px dotted #ea36eb;
+    width: 350px;
+    border-left: 2px dotted #ea36eb;
+    border-right: 2px dotted #ea36eb;
+    padding-left: 5px;
+    border-top-left-radius: 5px;
+}
+.gn ul li:nth-child(5){
+    line-height: 1.2em;
+    border-bottom: 2px dotted #ea36eb;
+    width: 359px;
+    border-bottom-right-radius: 5px;
+}
+.gn ul li:nth-child(5) span:first-child{
+    padding-left: 5px;
+    border-left: 2px dotted #ea36eb;
+}
+.gn ul li:nth-child(5) span:last-child{
+    border-right: 2px dotted #ea36eb;
+
+}
+
+/*toll的样式*/
+#tool ul{
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+#tool ul div>ul li{
+    list-style-type: none;
+    margin-left: 15px;
+    border-bottom: 2px dotted #3282F6;
+}
+
+/*编辑器的样式*/
+#bjq{
+    list-style-image: url(images/1.png);
+    padding: 0 50px 0 0;
+}
+
+/*标题的样式*/
+h1{
+    text-align: left;
+    padding: 20px 0 20px 0 ;
+    background-image: url(images/h1bg.png);
+    width: 266px;
+    height: 114px;
+    margin: 0 auto;
+    line-height: 114px;
+    padding-left: 50px;
+}
+
+/*footer的样式*/
+#footer{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: huawenxingkai,华文行楷;
+    margin: 150px 0 50px 0;
+    text-align: center;
+    background-color: #99D9EA;
+    padding: 50px 0;
+}
+
+#footer span{
+    font-family: 宋体;
+}
+
+/*download的样式*/
+#download{
+    font-size: 32px;
+    margin-top: 50px;  
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#download a{
+    padding: 20px 200px;
+    background-image: url(images/abg.png);
+    text-align: center;
+    color: #eee;
+
+}
