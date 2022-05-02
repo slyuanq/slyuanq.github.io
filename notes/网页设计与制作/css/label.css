@@ -1,0 +1,43 @@
+/*页面初始化样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height: 2em;
+    font-size: 18px;
+    color: #fff;
+    background-image: url(images/labelbg.jpg);
+    font-weight: 600;
+}
+body ul{
+    list-style: none;
+}
+h2{
+    color: chocolate;
+}
+#all{
+    width: 960px;
+    border-top: 4px solid #04ffc9;
+    margin: 0 auto;
+    padding: 20px 40PX;
+    background-image: url(images/bg.jpg);
+}
+
+/*标签的样式*/
+.example{
+    width: 750px;
+    margin: 0 auto;
+    background-image: url(images/labelbg.jpg);
+    padding: 20px 40px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+#dian{
+    width: 750px;
+    border: 5px double #fff;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 10px 40px;
+    margin-top: 10px;
+}

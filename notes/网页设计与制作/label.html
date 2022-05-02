@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>标签的分类</title>
+    <link rel="stylesheet" href="css/label.css">
+</head>
+<body>
+    <div id="all">
+        <div id="one">
+            <h2>一、文本标签</h2>
+            <ul>
+                <li>(1) h1~h6：h代表标题，号越大，字越小。--------&lt;双标签 | 具有换行的功能&gt;</li>
+                <li>
+                    <div class="example">
+                        <p>例如：</p>
+                        <ul>
+                            <li><h1>h1：一级标题</h1></li>
+                            <li><h2>h2：二级标题</h2></li>
+                            <li><h3>h3：三级标题</h3></li>
+                            <li><h4>h4：四级标题</h4></li>
+                            <li><h5>h5：五级标题</h5></li>
+                            <li><h6>h6：六级标题</h6></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>(2) p：段落标签------------------------------------&lt;双标签 | 换行&gt;</li>
+                <li>(3) br：换行标签-----------------------------------&lt;单标签&gt;</li>
+                <li>(4) hr：水平线--------------------------------------&lt;单标签&gt;</li>
+            </ul>
+        </div>
+        <div id="two">
+            <h2>二、列表标签</h2>
+            <ul>
+                <li>(1) 无序列表</li>
+                <li>
+                    <div id="ul">
+                        <p style="text-indent: 2em;">&lt;ul&gt;</p>
+                        <p style="text-indent: 4em;">&lt;li&gt;&lt;/li&gt;</p>
+                        <p style="text-indent: 2em;">&lt;/ul&gt;</p>
+                        <p style="text-indent: 2em;font-weight: 800;font-family: 华文楷体;">注意：ul内一般只包含li，li放在ul内；li内什么都可以，甚至ul</p>
+                    </div>
+                </li>
+                <li>(2) 有序列表</li>
+                <li>
+                    <div id="ol">
+                        <p style="text-indent: 2em;">&lt;ol&gt;</p>
+                        <p style="text-indent: 4em;">&lt;li&gt;&lt;/li&gt;</p>
+                        <p style="text-indent: 2em;">&lt;/ol&gt;</p>
+                    </div>
+                </li>
+                <li>(3) 自定义列表</li>
+                <li>
+                    <div id="dl">
+                        <p style="text-indent: 2em;">&lt;dl&gt;</p>
+                        <p style="text-indent: 4em;">&lt;dt&gt;&lt;/dt&gt;</p>
+                        <p style="text-indent: 4em;">&lt;dd&gt;&lt;/dd&gt;</p>
+                        <p style="text-indent: 2em;">&lt;/dl&gt;</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="three">
+            <h2>三、（图像）img标签</h2>
+            <div id="dian">
+                <ul>
+                    <li>(1) 单标签</li>
+                    <li>(2) 必须跟属性src，属性一般是键值对的形式</li>
+                    <li>(3) src后面跟图片的文件名----------&lt;width：宽度；height：高度&gt;</li>
+                    <li>(4) 绝对路径和相对路径</li>
+                </ul>
+            </div>
+        </div>
+        <div id="four">
+            <h2>四、超链接</h2>
+            <ul>
+                <li>(1) a是双标签；不换行；必须使用属性href</li>
+                <li>(2) 根据href的值分为：</li>
+                <li>
+                    <div>
+                        <p style="text-indent: 2em;">① 外部链接：http://......</p>
+                        <p style="text-indent: 2em;">② 内部链接：本地页面</p>
+                        <p style="text-indent: 2em;"③ 空连接：#</p>
+                        <p style="text-indent: 2em;">④ 文件链接：文件名（下载文件）</p>
+                    </div>
+                </li>
+                <li>(3) a还有一个常见的属性：target（目的）</li>
+                <li>
+                    <div>
+                        <p style="text-indent: 2em;">① target-self：在本身页面打开--------后退和前进按键</p>
+                        <p style="text-indent: 2em;">② target-blank：在新页面内打开</p>
+                    </div>
+                </li>
+                <li>(4) 锚点链接</li>
+                <li>
+                    <div>
+                        <p style="text-indent: 2em;">适用：同一篇长文档</p>
+                        <p style="text-indent: 2em;">源：href="#id名"</p>
+                        <p style="text-indent: 2em;">目的：name="id名"</p>
+                    </div>
+                </li>
+                <li>(5) 图片链接</li>
+                <li>
+                    <div class="example">
+                        <p>例如</p>
+                        <p style="text-indent: 2em;">&lt;a href=" "&gt;</p>
+                        <p style="text-indent: 4em;">&lt;img src="" alt=""&gt;</p>
+                        <p style="text-indent: 2em;">&lt;/a&gt;</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
