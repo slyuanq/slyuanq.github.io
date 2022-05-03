@@ -10,6 +10,10 @@ body{
     background-image: url(images/labelbg.jpg);
     font-weight: 600;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 body ul{
     list-style: none;
 }
@@ -40,4 +44,37 @@ h2{
     margin: 0 auto;
     padding: 10px 40px;
     margin-top: 10px;
+}
+
+/*download的样式*/
+.download{
+    width: 300px;
+    
+    margin: 0 auto;
+    border: 2px solid; #eee;
+    border-radius: 10px;
+    margin-top: 60px;
+    background-image: url(images/bg14.jpg);
+}
+.download a{
+    padding: 10px 78px;
+    text-align: center;
+}
+.download:hover{
+    color: #333;
+    background-image: url(images/bg15.jpg);  
+    border: 4px double #333;
+}
+
+/*footer的样式*/
+.footer{
+    
+    height: 100px;
+    font-size: 32px;
+    background-image: url(images/bg6.jpg);
+    font-family: kaiti;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 25px;
+    margin: 50px;
 }
