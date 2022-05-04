@@ -1,0 +1,59 @@
+/*页面初始化样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height: 2em;
+    font-size: 18px;
+    color: #fff;
+    background-image: url(images/bg14.jpg);
+    font-weight: 600;
+}
+body ul{
+    list-style: none;
+}
+h2{
+    color: #39403a;
+}
+#all{
+    width: 1200px;
+    border-top: 10px solid #04ffc9;
+    margin: 0 auto;
+    padding: 20px 40PX;
+    background-image: url(images/bg13.jpg);
+}
+
+/* 内容的样式 */
+.example{
+    width: 750px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    background-image: url(images/bg14.jpg);
+    border: 4px solid #04ffc9;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.download{
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(images/bg14.jpg);
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.download a{
+    padding: 0 38px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 300px;
+    font-size: 28px;
+
+/* .footer{
+    height: 150px;
+    background-color: #ffffff;
+    margin-top: 100px;
+} */

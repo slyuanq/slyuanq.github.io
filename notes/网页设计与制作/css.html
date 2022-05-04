@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <div id="all">
+        <div id="one">
+            <h2>一、css和html之间的关系</h2>
+            <p style="text-indent: 2em;">内部样式表：在head中增加style标签</p>
+        </div>
+        <div id="two">
+            <h2>二、css的语法</h2>
+            <div class="example">
+                <p style="text-indent: 2em;">选择器{</p>
+                <p style="text-indent: 4em;">属性名：属性值</p>
+                <p style="text-indent: 4em;">......</p>
+                <p style="text-indent: 2em;">}</p>
+            </div>
+        </div>
+        <div id="three">
+            <h2>三、选择器</h2>
+            <ul>
+                <li>1、标签选择器：标签名</li>
+                <li>2、id选择器：具有唯一性-------&lt;代表标志：#&gt;</li>
+                <li>3、class选择器：允许重名（类名）------&lt;代表标志： . &gt;</li>
+                <li>4、通用选择器： * （页面上所有元素）</li>
+                <li>
+                    <div class="example">
+                        <p style="text-indent: 2em;">*{</p>
+                        <p style="text-indent: 4em;">margin:0</p>
+                        <p style="text-indent: 4em;">padding:0</p>
+                        <p style="text-indent: 2em;">}</p>
+                    </div>
+                </li>
+                <li>5、并集选择器--------&lt;代表标志： , &gt;</li>
+                <li>
+                    <div class="example">
+                        <p style="text-indent: 2em;">#one,#two{ }</p>
+                    </div>
+                </li>
+                <li>6、子集（后代）选择器：空格 | 子代选择器：></li>
+            </ul>
+        </div>
+        <div class="download">
+            <a href="files/css.txt">点击下载文本文档</a>
+        </div>
+        <div class="footer">
+            
+        </div>
+    </div>
+</body>
+</html>
